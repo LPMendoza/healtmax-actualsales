@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealhtMax</title>
+  <!-- CSS only -->
+<link rel="stylesheet" href="./src/styles/bootstrap.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./src/styles/styles.css">
+<link rel="shortcut icon" href="./src/img/symbol.png" type="image/png">
+</head>
+<body class="bg-light">
+  <header class="header mb-5">
+    <div class="navBar" id="navBarBackground"></div>
+    <div id="navBar" class="py-2">
+      <div class="container">
+        <nav class="d-flex justify-content-between">
+            <a class="navbar-brand" href="#"><img src="./src/img/logo-white.png" width="148" alt="" srcset=""></a>
+            <button id="btnMenu" class="btnMenu navbar-toggler d-auto d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="fas fa-bars text-light"></span>
+            </button>
+            <div class="navBar" id="navbarCollapse">
+              <ul class="navbar-links mb-2 mb-lg-0">
+                <li class="nav-item text-end">
+                  <button id="btnCloseMenu" class="btnMenuClose navbar-toggler d-auto d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fas fa-times text-light"></span>
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light text-center active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light text-center" href="#">Prices</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light text-center" href="#" tabindex="-1" aria-disabled="true">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light text-center" href="#" tabindex="-1" aria-disabled="true">Contact us</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+    </div>
+    <div class="banner-form position-relative mt-5">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-6 mt-lg-5">
+            <h1 class="h1 text-center text-lg-start text-light fw-bold mb-4 mt-4">
+              Get the insurance that really takes care of you to be 
+              <span class="text-secondary-custom">calmed</span> 
+              and <span class="text-secondary-custom">healthy</span>
+            </h1>
+            <p class="text-light text-center text-lg-start col-12 col-lg-10">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec semper felis. Nulla porttitor mattis laoreet. Morbi in vulputate lectus.
+            </p>
+          </div>
+          <div class="col-md-8 col-lg-5 mx-auto pb-5 mt-4 mt-lg-0">
+            <form id="frmRegister" class="bg-white px-4 py-5 px-md-5 rounded-custom shadow-lg-custom form-register">
+              <span class="text-primary fw-bold">Register with us to get an offer</span>
+              <div class="mb-3 mt-4">
+                <label for="" class="form-label">Full Name</label>
+                <input type="text" class="form-control txtForm" id="txtFullName" placeholder="Maitland Heather">
+                <span class="error-span">You have to complete this field</span>
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Email</label>
+                <input type="email" class="form-control txtForm" id="txtEmail" placeholder="user@example.com">
+                <span class="error-span">You have to complete this field</span>
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Phone Number</label>
+                <input type="text" class="form-control txtForm" id="" placeholder="411587652">
+                <span class="error-span">You have to complete this field</span>
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Date of Birth</label>
+                <div class="d-flex align-items-center">
+                  <div class="container-input-date">
+                    <label for="" class="form-label-input-date">Month</label>
+                    <input data-input-type="date" type="number" class="form-control txtForm input-date" placeholder="03">
+                    <span class="error-span">You have to complete this field</span>
+                  </div>
+                  <div class="container-input-date">
+                    <label for="" class="form-label-input-date">Day</label>
+                    <input data-input-type="date" type="number" class="form-control txtForm input-date" placeholder="05">
+                  </div>
+                  <div class="container-input-date">
+                    <label for="" class="form-label-input-date">Year</label>
+                    <input data-input-type="date" type="number" class="form-control txtForm input-date" placeholder="1998">
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-secondary-custom rounded-pill mt-2 py-2 w-100">Get Offer Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./src/img/diagonal-lines.svg" class="diagonal-lines" alt="" srcset="">
+  </header>
+  <section class="container container-benefits">
+    <div class="row">
+      <div class="col-12 h2 text-primary fw-bold text-center mb-5">Some of the best benifits for your <span class="text-secondary-custom">healthcare</span></div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="benefit">
+          <div class="benefit__icon">
+            <span class="icon-benefit fas fa-heartbeat"></span>
+          </div>
+          <span class="benefit__title">Monthly Checking</span>
+          <p class="benefit__body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec semper felis. 
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="benefit">
+          <div class="benefit__icon">
+            <span class="icon-benefit fas fa-medkit"></span>
+          </div>
+          <span class="benefit__title">Medicines and Others</span>
+          <p class="benefit__body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec semper felis. 
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="benefit">
+          <div class="benefit__icon">
+            <span class="icon-benefit fas fa-ambulance"></span>
+          </div>
+          <span class="benefit__title">Ambulance Service</span>
+          <p class="benefit__body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec semper felis. 
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="benefit">
+          <div class="benefit__icon">
+            <span class="icon-benefit fas fa-user-md"></span>
+          </div>
+          <span class="benefit__title">Medic Attention</span>
+          <p class="benefit__body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec semper felis. 
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="benefit">
+          <div class="benefit__icon">
+            <span class="icon-benefit fas fa-x-ray"></span>
+          </div>
+          <span class="benefit__title">Medical analysis</span>
+          <p class="benefit__body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec semper felis. 
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="benefit">
+          <div class="benefit__icon">
+            <span class="icon-benefit fas fa-user-injured"></span>
+          </div>
+          <span class="benefit__title">Patient care</span>
+          <p class="benefit__body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec semper felis. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="col-12 h2 text-primary fw-bold text-center mt-5">Differents options for <span class="text-secondary-custom">differents needs</span></div>
+  <section class="prices-container mt-5">
+    <svg class="diagonal-prices" viewBox="0 0 1367 381" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M1367 0H0V70L1367 380.452V0Z" fill="#F7F7F7"/>
+    </svg>
+
+    <div class="container pb-5">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="kits shadow-lg-custom px-4 py-5 rounded-custom">
+            <div class="kits__icon">
+              <span class="icon-kits fas fa-user"></span>
+            </div>
+            <div class="kit__info">
+              <p class="kits__title">Individual insurance</p>
+              <p class="kits__body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec semper felis.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              </p>
+              <button class="btn btn-primary-custom rounded-pill mt-2 py-2 w-100">Get Offer Now</button>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="kits shadow-lg-custom px-4 py-5 rounded-custom">
+            <div class="kits__icon">
+              <img class="icon-kits" src="./src/img/family-icon.svg">
+            </div>
+            <div class="kit__info">
+              <p class="kits__title">Familiar insurance</p>
+              <p class="kits__body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec semper felis.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              </p>
+              <button class="btn btn-primary-custom rounded-pill mt-2 py-2 w-100">Get Offer Now</button>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="kits shadow-lg-custom px-4 py-5 rounded-custom">
+            <div class="kits__icon">
+              <span class="icon-kits fas fa-cog"></span>
+            </div>
+            <div class="kit__info">
+              <p class="kits__title">Custom insurance</p>
+              <p class="kits__body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec semper felis.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              </p>
+              <button class="btn btn-primary-custom rounded-pill mt-2 py-2 w-100">Get Offer Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="container-invert-sm">
+          <div class="d-flex justify-content-center col-12 col-lg-6 mt-3 mt-lg-5 mt-3 pt-lg-5">
+            <img src="./src/img/image-family.png" alt="Family happy" class="img-fluid">
+          </div>
+          <div class="col-12 col-lg-6 my-2 mt-lg-5 py-2 py-lg-5">
+            <h1 class="text-light text-center text-lg-start h1 h1-big fw-bold mt-5">We are always looking first for the <span class="text-secondary-custom">happines</span> and <span class="text-secondary-custom">health</span> of our <span class="text-secondary-custom">customers</span></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-light">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <div class="d-flex flex-column ">
+            <img src="./src/img/logo-color.png" width="240px" alt="">
+            <div class="d-flex container-social mt-4">
+              <div class="icon-social-container bg-primary me-3">
+                <span class="fab fa-instagram"></span>
+              </div>
+              <div class="icon-social-container bg-primary me-3">
+                <span class="fab fa-facebook"></span>
+              </div>
+              <div class="icon-social-container bg-primary me-3">
+                <span class="fab fa-twitter"></span>
+              </div>
+              <div class="icon-social-container bg-primary">
+                <span class="fab fa-youtube"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-8 d-flex flex-wrap mt-5 mt-lg-0 justify-content-between">
+          <div class="d-flex flex-column">
+            <span class="title-footer fw-bold mb-3">Links</span>
+            <span class="mb-2">Information</span>
+            <span class="mb-2">Blogs</span>
+            <span class="mb-2">About</span>
+            <span class="mb-2">References</span>
+            <span class="mb-2">Careers</span>
+          </div>
+          <div class="d-flex flex-column">
+            <span class="title-footer fw-bold mb-3">Services</span>
+            <span class="mb-2">Service 1</span>
+            <span class="mb-2">Service 2</span>
+            <span class="mb-2">Service 3</span>
+            <span class="mb-2">Service 4</span>
+            <span class="mb-2">Service 5</span>
+          </div>
+          <div class="d-flex flex-column mt-4 mt-lg-0">
+            <span class="title-footer fw-bold mb-3">Find us</span>
+            <span class="mb-4 d-flex align-items-center"><span class="icon-findus fas fa-envelope me-2"></span>healthmax@mail.com</span>
+            <span class="mb-4 d-flex align-items-center"><span class="icon-findus fas fa-phone me-2"></span>+91 98765 43210</span>
+            <span class="mb-4 d-flex align-items-center"><span class="icon-findus fas fa-map-marker-alt me-2"></span>Location, OH 86297-5075</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-light-dark py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex flex-md-row flex-column justify-content-between">
+            <span class="low-footer-text mb-2 mb-md-0">HealtMax © 2020. Derechos Reservados.</span>
+            <span class="low-footer-text">Terms & Conditions | Privacy Policy | Sitemap | Disclaimer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Modals -->
+  <div id="modalRegistered" class="modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered rounded-custom">
+    <div class="modal-content rounded-custom border-0">
+      <div class="modal-header border-0 px-4">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body px-4">
+        <h3 class="h3 modal-title fw-bold">You have been <span class="text-secondary-custom">registered!</span></h3>
+        <p>The offer will be sent you to your email.</p>
+      </div>
+      <div class="modal-footer border-0">
+        <button type="button" class="btn btn-primary-custom px-4 rounded-custom" data-bs-dismiss="modal">Ok, I got it</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- JavaScript Bundle with Popper -->
+<script src="./src/js/bootstrap.bundle.js"></script>
+<script src="./src/js/index.js"></script>
+</body>
+</html>

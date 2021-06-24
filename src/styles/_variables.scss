@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+$light-color: #f7f7f7;
+$light-dark-color: #eee;
+$primary-color: #003866;
+$red-color: #E40F42;
+$red-color-invalid: rgba(228, 15, 65, 0.6);
+$primary-color-hover: #012e53;
+$primary-color-outline: rgba(0, 56, 102, 0.4);
+$secondary-color: #FF4200;
+$secondary-color-hover: #e63e01;
+$secondary-color-outline: rgba(230, 62, 1, 0.4);
+$placeholder-color: #7C8E9A;
+$white-color: #fff;
+
+$font-name: "Poppins";
+
+$shadow-lg-custom: 0px 10px 30px rgba(0,0,0,0.1);
